@@ -7,6 +7,7 @@ This repositary contains a list of <b>easy and begineer-friendly</b> projects. <
   <li>Simple & compound Translator</li>
 </ul>
 
+<p>And more...</p>
+
 <p>Most of the projects are mainly calculators</p>
 
-<p>And more...</p>
