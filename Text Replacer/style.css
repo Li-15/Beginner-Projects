@@ -1,0 +1,60 @@
+* {
+    font-family: "IM Fell DW Pica", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#body {
+    border: 0.3rem solid orange;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    padding: 0.3rem;
+}
+
+#fieldOutCome {
+    border: 0.3rem solid orange;
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    padding: 0.3rem;
+    height: 8rem;
+    width: 50rem;
+}
+
+#input {
+    height: 3rem;
+    width: 30rem;
+    border: 0.2rem solid orange;
+    border-radius: 0.3rem;
+    margin: 0.3rem;
+    padding: 0.2rem;
+}
+
+button {
+    background-color: orange;
+    color: rgb(255, 255, 255);
+    border: rgb(126, 94, 35), solid, 0.2rem;
+    border-radius: 0.3rem;
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+#outcome {
+    margin: 0.2rem;
+    padding: 0.1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(150, 98, 0);
+}
+
+input {
+    height: 1rem;
+    width: 9rem;
+    border: 0.2rem solid orange;
+    border-radius: 0.3rem;
+    margin: 0.3rem;
+    padding: 0.5rem;
+}
