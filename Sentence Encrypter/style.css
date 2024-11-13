@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h1 {
+    margin-left: 0.3rem;
+    margin-bottom: 1rem;
+    transition: 1s;
+}
+
+h1:hover {
+    color: rgb(201, 58, 58);
+    transition: 1s;
+}
+
+#mainFunc {
+    margin: 0.3rem;
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 0.2rem solid rgb(37, 81, 81);
+    height: 20rem;
+    border-radius: 0.8rem;
+}
+
+h4 {
+    font-size: x-large;
+    margin-bottom: 0.3rem;
+    transition: 0.15s;
+}
+
+h4:hover {
+    transform: perspective(800px) rotateY(50deg);
+    transition: 0.15s;
+}
+
+input {
+    width: 15rem;
+    height: 1.5rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    border: 0.2rem solid rgb(37, 81, 81);
+    border-radius: 0.3rem;
+    transition: 0.15s;
+}
+
+input:hover {
+    transition: 0.15s;
+    box-shadow: 0.1rem 0.1rem grey;
+}
+
+button {
+    width: 5rem;
+    height: 2.259rem;
+    padding: 0.2rem;
+    font-size: 1rem;
+    border: 0.2rem solid rgb(37, 81, 81);
+    border-radius: 0.3rem;
+    transition: 0.15s;
+}
+
+button:hover {
+    transition: 0.15s;
+    box-shadow: 0.1rem 0.1rem grey;
+}
+
+#tut {
+    margin: 0.3rem;
+    padding: 0.1rem;
+}
+
+.tutp {
+    color: rgba(255, 0, 0, 0.565);
+}
+
+.vertical-line {
+    width: 2px;
+    /* Thickness of the line */
+    height: 17rem;
+    /* Height of the line */
+    background-color: #333;
+    /* Color of the line */
+    margin: 0 20px;
+    /* Optional: spacing around the line */
+}
