@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+hr {
+    margin: 0.2rem;
+    margin-bottom: 0.3rem;
+    width: 23rem;
+}
+
+h1 {
+    display: inline;
+}
+
+h1:hover {
+    animation: haha 2s linear infinite;
+
+}
+
+button {
+    width: 5rem;
+    height: 2.2rem;
+    border-radius: 0.3rem;
+}
+
+button:hover {
+    box-shadow: 0.2rem 0.2rem grey;
+    transition: 0.15s;
+
+}
+
+input {
+    height: 2.2rem;
+    transition: 0.15s;
+    border-radius: 0.3rem;
+    padding: 0.1rem;
+}
+
+input:hover {
+    border-radius: 0.3rem;
+    box-shadow: 0.2rem 0.2rem grey;
+}
+
+.container {
+    display: grid;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 50px;
+}
+
+.item {
+    border: 0.1rem solid rgb(68, 170, 225);
+    margin: 0.2rem;
+    padding: 0.2rem;
+}
+
+#i1 {
+    display: flex;
+    grid-area: 1 / 1 / 2 / 13;
+    align-items: center;
+    justify-content: center;
+}
+
+#i2 {
+    grid-area: 2 / 1 / 4 / 7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#i3 {
+    grid-area: 2 / 7 / 4 / 12;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#i4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.15s;
+}
+
+#i4:hover {
+    cursor: pointer;
+    box-shadow: 0.2rem 0.2rem grey;
+    transition: 0.15s;
+}
+
+#i5 {
+    grid-area: 4 / 1 / 5 / 13;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes haha {
+    0% {
+        color: #000000;
+        text-shadow: none;
+    }
+
+    25% {
+        color: #ca5c5c;
+        text-shadow: 0 0 1rem #dd3967;
+    }
+
+    50% {
+        color: #0e3752;
+        text-shadow: none;
+    }
+
+    75% {
+        color: #d04c4c;
+        text-shadow: 0 0 1rem #d90062;
+    }
+
+    100% {
+        color: #000000;
+        text-shadow: none;
+    }
+}

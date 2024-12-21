@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="item" id="i1">
+            <h1>Sentence Encryption</h1>
+        </div>
+        <div class="item" id="i2">
+            <div>
+                <h1>Sentence To Number</h1>
+                <hr>
+                <input type="text" id="s-nInput" placeholder="Your sentence..."> <button id="s-nBtn">Encrypt</button>
+                <p id="results-n"></p>
+                <button id="copy" style="display: none;">COPY</button>
+            </div>
+        </div>
+        <div class="item" id="i3">
+            <div>
+                <h1>Number To Sentence</h1>
+                <hr>
+                <input type="text" id="n-sInput" placeholder="Number..."> <button id="n-sBtn">Decrypt</button>
+                <p id="resultn-s"></p>
+            </div>
+        </div>
+        <div class="item" id="i4">
+            <h1 style="color: red;">Clear all</h1>
+        </div>
+        <div id="i5" class="item">
+            <div>
+                <h1>How to use: </h1>
+                <p>This program is used to sent words to other people with encryption. Whatever you sent will
+                    be translated to numbers and can be translated back by your target if s/he has the same program.
+                </p>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
