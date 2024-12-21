@@ -4,7 +4,8 @@
 <b>SOLUTION</b>!
 </p>
 
-![image](https://github.com/user-attachments/assets/b087a104-3415-4c12-b06e-29684a58c273)
+![image](https://github.com/user-attachments/assets/04f2e2fe-e939-486d-867d-e2a2830c8546)
+
 
 
 <p>This is a simple program that encrypts a sentence, and someone else can decrypt it if they have the same program. </p>
