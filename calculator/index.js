@@ -13,6 +13,6 @@ function calculate() {
     }
 }
 
-function clear() {
+function clearDisplay() {
     display.value = ""
 }
